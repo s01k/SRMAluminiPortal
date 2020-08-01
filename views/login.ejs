@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylesheets/style1.css">
+<style>
+ body html {
+     margin:0;
+     padding:0;
+      }
+    .container{
+   
+     background-color: white;
+     text-align: center;
+     font-size:18px;
+     margin: auto;
+    width: 80%;
+    padding: 10px;
+    }
+
+button {
+  background-color:royalblue;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  cursor:pointer;;
+  width: 20%;
+  height:30px;
+   }
+button:hover {
+  opacity: 0.5;
+}
+
+.button2 {
+  padding-left:5%;
+  height: 20;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.member{
+  font-size:larger;
+  text-align: left;
+  padding-left: 5%;
+  font-style: normal;
+  cursor: pointer;
+}
+/* .image{
+     background-repeat: no-repeat;
+  
+} */
+</style>
+<title>LOGIN page</title>
+</head>
+<body style="background-color: rgb(245, 244, 244);">
+  <% include partials/menu1 %>
+  <br><br><br><br>
+  
+  <div class="container">
+    <h1 style="text-align:center; font-size:40;"><b><u>USER-LOGIN</u></b></h1>
+    <br>
+    <!-- <div class="image">
+      <img src="srmimage.png">
+    </div> -->
+
+      <div class="text">
+      <p style="text-align:center; padding-left:5%"><b>Login with your email address</b></p>
+      <label for="username"><b>User Id </b></label><br>
+      <input type="text" placeholder="Enter Username" name="username" size="30"  required><br><br><br>
+      <label for="password"><b>Password </b></label><br>
+      <input type="password" placeholder="Enter Password" name="passwordd" size="30" required></br><br><br>
+      
+       <br><button type="submit" style="font-size: medium;">LOGIN</button><br><br>
+       <div class="member"> 
+        <p>New member?<a href="/signup"> Register here</a></p>
+        <p>Forgot Password?<a href="#"> click here</a></p><br>
+    </div>
+       <hr style="width: 50%; text-align: center;"><b>or</b>
+    <br>
+      </div>
+     
+       <div class="button2">
+        <p style="text-align: center; "><b>Login and stay connected to your alumni community and alma mater</b></p><br>
+        <button type="submit" style="text-align: center;font-size: medium; background-color:#3B5998;"><a href="https://www.facebook.com/" class="fa fa-facebook">  Login with FACEBOOK</a></button>
+        <button type="submit" style="text-align: center; font-size: medium; background-color:#007bb5;"><a href="https://www.linkedin.com/" class="fa fa-linkedin">  Login with LINKEDIN</a></button>
+        <button type="submit" style="text-align: center; font-size: medium; background-color:#dd4b39;"><a href="https://accounts.google.com/" class="fa fa-google">  Login with GOOGLE</a></button><br><br>
+    </div><br><br><br><br>
+  
+  
+</div><br>
+  
+<script src="./javascripts/menu1.js"></script>
+</body>
+</html>

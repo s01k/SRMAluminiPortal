@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <% include partials/head %> 
+
+</head>
+<body>
+<% include partials/menu %>
+
+<br><br><br><br>
+<div class="slideshow-container section">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img/1.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img/2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+ 
+ <!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="img/a1.jpg" style="width:100%"> 
+  </div>
+  <div class="column">
+    <img src="img/a2.jpg" style="width:100%"> 
+    
+  </div>  
+  <div class="column">
+    <img src="img/a3.jpg" style="width:100%">
+    
+  </div>
+  
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>EVENTS</h2>
+    <br>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <br>
+    <h3>More Text, FEB 22</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <br>
+    <h3>More Text, FEB 22</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+   
+  </div>
+  <div class="main">
+    <h2>NEWSROOM</h2>
+    <br>
+    <h5>Title description, Dec 7, 2017</h5>
+    <br>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h5>Title description, Sep 2, 2017</h5>
+    <br>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="img/a4.jpg" style="width:100%"> 
+  </div>
+  <div class="column">
+    <img src="img/a5.jpg" style="width:100%"> 
+    
+  </div>  
+  <div class="column">
+    <img src="img/a6.jpg" style="width:100%">
+    
+  </div>
+  
+</div>
+</body>
+<% include partials/script %>
+</html>

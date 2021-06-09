@@ -1,4 +1,4 @@
-# UNOFFICIAL SRM ALUMINI NETWORK PAGE 
+# UNOFFICIAL (To be made official) SRM ALUMINI NETWORK PAGE 
 
 ## Document
 * Clone this repo: ``` git clone https://github.com/s01k/alumini.git ```
